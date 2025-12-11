@@ -6,7 +6,7 @@ final dioProvider = Provider<Dio>((ref) {
   final dio = Dio(
     BaseOptions(
       baseUrl: 'http://192.168.0.16:9090/api', //casa
-      //baseUrl: '/api', //reverse proxy para hacer el funnel y poder usar la web desde Tailscale
+      //baseUrl: '/api', //reverse proxy gracias a nginx para hacer el funnel y poder usar la web desde Tailscale
       connectTimeout: const Duration(seconds: 5),
       receiveTimeout: const Duration(seconds: 5),
     ),
