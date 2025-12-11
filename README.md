@@ -59,7 +59,7 @@ El token se almacena de forma segura y se inyecta automáticamente con un interc
 
 ## 📡 Configuración de la API
 
-La URL base está definida en el provider `dio_provider.dart`.  
+La URL base está definida en el provider `lib/providers/dio_provider.dart`.  
 Para cambiar entre entornos (local, producción o Tailscale), solo es necesario cambiar la constante `baseUrl`.
 
 ---
